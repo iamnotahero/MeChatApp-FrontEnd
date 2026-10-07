@@ -29,7 +29,7 @@ const Auth = () => {
 
         const {userName, password, phoneNumber, avatarURL} = form;
         
-        const URL = 'http://localhost:5000/auth';
+        const URL = 'https://mechatapp-r0ls.onrender.com/auth';
         console.log('Form data:', form); // Log the form data to the console
         console.log('Avatar file:', avatarFile); // Log the avatar file to the console
        
@@ -57,7 +57,7 @@ const Auth = () => {
             cookies.set('hashedPassword', response.data.hashedPassword);
         }
 
-        //window.location.reload();
+        window.location.reload();
     }
 
     const switchMode = () => {
