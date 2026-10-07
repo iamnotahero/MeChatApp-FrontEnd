@@ -27,7 +27,7 @@ const Auth = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const {userName, password, phoneNumber, avatarURL} = form;
+        const {phoneNumber} = form;
         
         const URL = 'https://mechatapp-r0ls.onrender.com/auth';
         console.log('Form data:', form); // Log the form data to the console
