@@ -120,7 +120,7 @@ const ChannelListContainer = ({setCreateType, setIsCreating, setIsEditing}) => {
             </div>
 
             <div className='channel-list__container-responsive'
-                style={{ transform: toggleContainer ? 'translateX(0)' : 'translateX(calc(-100% + 66px))' }}
+                style={{ transform: toggleContainer ? 'translateX(0)' : 'translateX(calc(-100%))' }}
             >
                     <div className='channel-list__container-toggle' onClick={()=> setToggleContainer((prevToggleContainer) => !prevToggleContainer)}>
                     </div>
